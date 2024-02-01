@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
    <Routes>
   
-         <Route exact path="/" element={<Login/>}></Route>
+         <Routexact path="/" element={<Login/>}></Route>
          <Route exact path="/dashboard" element={<Dashboard/>}></Route>
         
    </Routes>
